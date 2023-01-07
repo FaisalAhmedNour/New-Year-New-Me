@@ -15,6 +15,7 @@
     padding: 20px;
     color: white;
     font-size: 50px;
+    padding-right: 0;
 }
 
 .banner-description {
@@ -65,4 +66,61 @@
 
 .failures-list p {
     padding: 3px 0;
+}
+
+/* My Plans */
+.my-plans {
+    margin: 40px 15%;
+}
+
+.plans-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans h2 {
+    font-size: 30px;
+}
+
+.plans p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #444343af;
+    padding: 5px 0;
+}
+
+.plan {
+    text-align: center;
+}
+
+.my-plan-banner {
+    margin-top: 100px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-size: cover;
+}
+
+.my-plan-banner>div {
+    padding: 40px;
+}
+
+.my-plan-banner-title {
+    color: white;
+    font-size: 35px;
+}
+
+.my-plan-banner-button {
+    color: #304272;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    margin-left: 0;
 }
